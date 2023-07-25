@@ -1,0 +1,29 @@
+print("Starting map")
+start()
+
+//4 steps right and 5 steps down.
+
+right()
+
+right()
+
+right()
+
+right()
+
+down()
+
+down()
+
+down()
+
+down()
+
+down()
+
+
+
+
+//Don't change the code below this line.
+print("Final map")
+visualise();
