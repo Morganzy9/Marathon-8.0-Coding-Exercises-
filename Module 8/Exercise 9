@@ -1,0 +1,22 @@
+//Don't change this
+
+
+var studentsAndScores = ["Amy": Int(readLine()!)!, "James": Int(readLine()!)!, "Helen": Int(readLine()!)!]
+
+func highestScore(scores: [String: Int]) {
+  
+  //Write your code here.
+  
+    var ans = 0
+    
+    let amy = studentsAndScores["Amy"]!
+    let james = studentsAndScores["James"]!
+    let helen = studentsAndScores["Helen"]!
+    
+    
+    if amy > temp { ans = amy }
+    if james > temp { ans = james }
+    if helen > temp { ans = helen }
+    
+    print(ans)
+}
