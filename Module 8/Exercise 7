@@ -1,1 +1,19 @@
+//Don't change this
+
+
+var year =  Int(readLine()!)!
+
+func isLeap(y: Int) {
+    
+    var ans = "NO"
+    
+    if y % 4 == 0 { ans = "YES" }
+    if y % 100 == 0 { ans = "NO" }
+    if y % 400 == 0 { ans = "YES" }
+    
+    print(ans)
+}
+
+//Don't change this
+isLeap(year: year)
 
