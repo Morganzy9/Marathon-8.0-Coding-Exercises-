@@ -1,0 +1,25 @@
+class Assignment {
+
+func fibonacci(number: Int) {
+    
+   var num1 = 0
+   var num2 = 1
+   
+   if n == 0 {
+       print("Incorrect ")
+   } else if number == 1 {
+       print(num1)
+   } else if number == 2 {
+       print(num1, num2)
+   } else {
+       var ans = [num1, num2]
+        for digit in 2..<number {
+        let number3 = num1 + num2
+        num1 = num2
+        num2 = number3
+        ans.append(number3)
+       }
+       print(ans)
+   }
+}
+}
